@@ -1,4 +1,5 @@
 import UserDetails from "./UserDetails";
+import UserEditForm from "./UserEditForm";
 
 const UserProfile = () => {
   return (
@@ -7,8 +8,8 @@ const UserProfile = () => {
     >
       <h2>Component UserProfile (Рівень 2)</h2>
       <p>Компонент більше не передає props, які йому не потрібні.</p>
-
       <UserDetails />
+      <UserEditForm />
     </div>
   );
 };
